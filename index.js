@@ -12,7 +12,7 @@ document.addEventListener("keydown", function(e) {
 });
 
 function moveDodgerRight() {
-  let RightNumbers = dodger.style.right.replace("px", "");
+  let rightNumbers = dodger.style.right.replace("px", "");
   let right = parseInt(rightNumbers, 10);
  
   if (right > 0) {
