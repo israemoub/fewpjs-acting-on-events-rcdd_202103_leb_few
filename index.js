@@ -7,7 +7,7 @@ function moveDodgerRight() {
   let rightNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(rightNumbers, 10);
  
-  if (left < 400) {
+  if (left < 360) {
     dodger.style.left = `${left + 1}px`;
   }
 }
